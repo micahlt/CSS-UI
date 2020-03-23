@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1545852528-fa22f7fcd63e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80');
+  background-size: cover;
+}
+
+.login-container {
+  background-color: rgba(0,0,0,0.75);
+  height: 300px;
+  width: 300px;
+  border-radius: 4.5px;
+  position: absolute;
+  right: 15%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.login-content {
+  text-align: center;
+  width: 80%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  font-family: 'Sen', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.login-box {
+  background: none;
+  border: none;
+  font-size: 25px;
+  border-bottom: solid white 2px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+input[type=text] {
+  font-family: 'Sen', sans-serif;
+  color: white;
+}
+
+input[type=password] {
+  font-family: 'Sen', sans-serif;
+  color: white;
+}
+
+.login-box::after {
+  border-bottom-color: green;
+}
+
+input:focus {
+  outline: none;
+  caret-color: white;
+}
+
+input::placeholder {
+  font-size: 16px;
+  color: white;
+  font-weight: 300;
+  font-family: 'Sen', sans-serif;
+  text-align: center;
+}
+
+button {
+  padding: 7px;
+  font-family: 'Sen', sans-serif;
+  color: black;
+  border: none;
+  background: white;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+button:focus {
+  outline: none;
+}
