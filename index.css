@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #5e03fc;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 150px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.share {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(225, 225, 255, 0.4);
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-flex;
+}
+
+.fb-share-button {
+  padding-left: 10px;
+  padding-right: 10px;
+}
