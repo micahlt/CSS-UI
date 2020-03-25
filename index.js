@@ -14,3 +14,12 @@ window.twttr = (function(d, s, id) {
 
   return t;
 }(document, "script", "twitter-wjs"));
+
+function getRandomInt(num) {
+  return Math.floor(Math.random() * Math.floor(num));
+}
+
+document.getElementById("bigButton").addEventListener("click", function(){
+  let url = "ui/" + getRandomInt(2) + "/index.html";
+  window.location = url;
+})

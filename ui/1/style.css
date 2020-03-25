@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.demo-card {
+  max-width: 300px;
+  margin: 20px;
+  height: fit-content !important;
+}
+
+.demo-card__primary {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.demo-card__secondary {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.mdc-top-app-bar__row {
+  background-color: #ff3a3a;
+}
+
+.mdc-button:not(:disabled) {
+  color: #d01a2b !important;
+}
+
+.mdc-button .mdc-button__ripple::before, .mdc-button .mdc-button__ripple::after {
+  background-color: #f49a9d !important;
+}
+
+.cards-row {
+  display: flex;
+}
