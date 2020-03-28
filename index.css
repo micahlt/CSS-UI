@@ -44,3 +44,19 @@ h2 {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+#bigButton {
+  padding: 15px;
+  background-color: white;
+  color: #5e03fc;
+  border-radius: 50px;
+  text-decoration: none !important;
+  transition: all 1.5s;
+}
+
+#bigButton:hover {
+  border-radius: 3px;
+  color: white;
+  background-color: #782ef7;
+  transition: all 1.5s;
+}
